@@ -34,7 +34,7 @@ const Features = () => {
     var url=res.url;
     return(
       
-    <div className="feature-card" style={{backgroundImage:"url("+url+")"}}>
+    <div className="feature-card" style={{backgroundImage:"url("+url+")"}} >
             <h3>{res.title}</h3>
             <p>{res.paragraph}</p>
           </div>
@@ -45,7 +45,7 @@ const Features = () => {
       <div className="container">
         <h2>Game Features</h2>
         <div className="features-grid">
-          {/* <Link to="playerList">Take me There!</Link> */}
+          
           {features}
           
         </div>

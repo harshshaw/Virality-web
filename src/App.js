@@ -14,6 +14,7 @@ import {
 import './App.css';
 import Test from './Components/Test';
 import HomePage from './homePage';
+import Merchandise from './Components/Merchandise/merchandise';
 
 const App = () => {
   const players = [
@@ -27,6 +28,9 @@ const App = () => {
 <Routes> 
     <Route path="/" element={<HomePage />} /> 
     <Route path="/playerList" element={<PlayerList players={players}/>} /> 
+    <Route path="/merchandise" element={<Merchandise/>} /> 
+
+
 </Routes> 
 </Router> 
     </div>

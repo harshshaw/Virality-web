@@ -13,6 +13,7 @@ import {
 } from "react-router-dom"; 
 import './App.css';
 import Test from './Components/Test';
+import Merchandise from './Components/Merchandise/merchandise';
 
 const HomePage = () => {
   const players = [
@@ -27,8 +28,6 @@ const HomePage = () => {
       <Features />
       <Leaderboard />
       <LiveStats />
-      {/* 
-      <PlayerList players={players} /> */}
       <Footer />
      
     </div>
