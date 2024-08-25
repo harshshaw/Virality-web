@@ -17,11 +17,7 @@ const products = [
   { id: 4, name: 'Cap', price: 15, category: 'Accessories', image: 'cap.jpg' },
   { id: 1, name: 'T-Shirt', price: 20, category: 'Clothing', image: 'tshirt.jpg' },
   { id: 2, name: 'Hoodie', price: 50, category: 'Clothing', image: 'hoodie.jpg' },
-  { id: 3, name: 'Mug', price: 10, category: 'Accessories', image: 'mug.jpg' },
-  { id: 4, name: 'Cap', price: 15, category: 'Accessories', image: 'cap.jpg' },
-  { id: 3, name: 'Mug', price: 10, category: 'Accessories', image: 'mug.jpg' },
-  { id: 4, name: 'Cap', price: 15, category: 'Accessories', image: 'cap.jpg' },
-  { id: 4, name: 'Cap', price: 15, category: 'Accessories', image: 'cap.jpg' },
+ 
 ];
 
 const Merchandise = () => {
