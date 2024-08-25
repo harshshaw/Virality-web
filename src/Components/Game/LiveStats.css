@@ -1,0 +1,75 @@
+.live-stats {
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+  }
+  
+  .live-stats h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 3rem;
+    justify-items: center; /* Center items horizontally */
+  }
+  
+  .stats-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.4rem;
+    padding-right: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Ensure card fills the grid cell */
+    max-width: 300px; /* Optional: limit card width */
+    position: relative; /* For positioning icons */
+    /* background-image: url("https://t4.ftcdn.net/jpg/00/65/77/27/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg"); */
+    background-repeat: no-repeat;
+    background-attachment:scroll; 
+    background-size: 100% 100%;
+    /* color:rgb(192, 220, 15) */
+  }
+  
+  .stats-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .card-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .card-icons {
+    font-size: 1.25rem;
+  }
+  
+  .card-icons i {
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .card-icons i:hover {
+    color: #ff6f61;
+  }
+  
+  .stats-card p {
+    margin: 0.5rem 0;
+  }
+  

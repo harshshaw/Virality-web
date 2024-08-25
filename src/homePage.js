@@ -13,9 +13,8 @@ import {
 } from "react-router-dom"; 
 import './App.css';
 import Test from './Components/Test';
-import HomePage from './homePage';
 
-const App = () => {
+const HomePage = () => {
   const players = [
     { id: 1, name: 'Lionel Messi', position: 'Forward', team: 'PSG' },
     { id: 2, name: 'Cristiano Ronaldo', position: 'Forward', team: 'Al-Nassr' },
@@ -23,14 +22,16 @@ const App = () => {
   ]
   return (
     <div className="App">
-<Router> 
-<Routes> 
-    <Route path="/" element={<HomePage />} /> 
-    <Route path="/playerList" element={<PlayerList players={players}/>} /> 
-</Routes> 
-</Router> 
+      <Header />
+      <HeroSection />
+      <Features />
+      <Leaderboard />
+      <LiveStats />
+      {/* 
+      <PlayerList players={players} /> */}
+      <Footer />
+     
     </div>
   );
 };
-
-export default App;
+export default HomePage;

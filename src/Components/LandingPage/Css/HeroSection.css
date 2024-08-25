@@ -1,0 +1,22 @@
+.hero {
+    background: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-original-square-diamond-pure-black-banner-background-image_273735.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background: #ff6f61;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
