@@ -14,7 +14,7 @@ const Features = () => {
       title:"Tournament",
       paragraph:"Participate in upcoming ",
       url:"https://img.freepik.com/free-vector/battle-versus-vs-background-sports-game_1017-23766.jpg",
-      link:"/tournament"
+      link:"/tournaments"
     },
     {
       title:"Merchandise",

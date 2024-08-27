@@ -15,6 +15,8 @@ import './App.css';
 import Test from './Components/Test';
 import HomePage from './homePage';
 import Merchandise from './Components/Merchandise/merchandise';
+import Tournaments from './Components/Game/Tournaments';
+import TournamentDetails from './Components/Game/TournamentDetails';
 
 const App = () => {
   const players = [
@@ -29,6 +31,8 @@ const App = () => {
     <Route path="/" element={<HomePage />} /> 
     <Route path="/playerList" element={<PlayerList players={players}/>} /> 
     <Route path="/merchandise" element={<Merchandise/>} /> 
+    <Route path="/tournaments" element={<Tournaments/>}/>
+    <Route path="/tournamentDetails" element={<TournamentDetails/>}/>
 
 
 </Routes> 
