@@ -12,7 +12,6 @@ import {
   Route 
 } from "react-router-dom"; 
 import './App.css';
-import Test from './Components/Test';
 import Merchandise from './Components/Merchandise/merchandise';
 
 const HomePage = () => {

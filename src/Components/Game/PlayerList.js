@@ -3,6 +3,7 @@ import PlayerCard from './PlayerCard';
 import Wishlist from './Wishlist';
 import './PlayerList.css'
 import Navbar from '../LandingPage/Navbar';
+import Header from '../LandingPage/Header';
 const PlayerList = ({ players }) => {
     const [searchTerm, setSearchTerm] = useState('');
     const [wishlist, setWishlist] = useState([]);
@@ -25,7 +26,7 @@ const PlayerList = ({ players }) => {
     return (
         
         <div className="player-list-container">
-            <Navbar/>
+           <Header/>
             <h1>Influencer Search</h1>
             <input
                 type="text"

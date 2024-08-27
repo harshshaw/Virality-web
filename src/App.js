@@ -12,11 +12,11 @@ import {
   Route 
 } from "react-router-dom"; 
 import './App.css';
-import Test from './Components/Test';
 import HomePage from './homePage';
 import Merchandise from './Components/Merchandise/merchandise';
 import Tournaments from './Components/Game/Tournaments';
 import TournamentDetails from './Components/Game/TournamentDetails';
+import ChatScreen from './Components/Community/ChatScreen';
 
 const App = () => {
   const players = [
@@ -33,7 +33,7 @@ const App = () => {
     <Route path="/merchandise" element={<Merchandise/>} /> 
     <Route path="/tournaments" element={<Tournaments/>}/>
     <Route path="/tournamentDetails" element={<TournamentDetails/>}/>
-
+    <Route path="/community" element={<ChatScreen/>}/>
 
 </Routes> 
 </Router> 
