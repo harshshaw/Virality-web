@@ -25,10 +25,12 @@ const PlayerList = ({ players }) => {
 
     return (
         
-        <div className="player-list-container">
+        <div className="player-list-container" style={{position: "absolute", backgroundColor: "black", width: "100%", height: "100%", textAlign: "center", verticalAlign: "middle"}}>
            <Header/>
-            <h1>Influencer Search</h1>
+            <h1 style={{color: "white"}}>Influencer Search</h1>
             <input
+                style={{position: "relative,", width: "50%", display: "block", left: "25%", background: "transparent", borderTop: "none", borderLeft: "none", borderRight: "none"}}
+                className="form-control me-2"
                 type="text"
                 placeholder="Search Influencers..."
                 value={searchTerm}
