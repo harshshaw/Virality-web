@@ -17,6 +17,7 @@ import Merchandise from './Components/Merchandise/merchandise';
 import Tournaments from './Components/Game/Tournaments';
 import TournamentDetails from './Components/Game/TournamentDetails';
 import ChatScreen from './Components/Community/ChatScreen';
+import TeamSelectionPage from './Components/Game/TeamSelectionPage';
 
 const App = () => {
   const players = [
@@ -34,6 +35,7 @@ const App = () => {
     <Route path="/tournaments" element={<Tournaments/>}/>
     <Route path="/tournamentDetails" element={<TournamentDetails/>}/>
     <Route path="/community" element={<ChatScreen/>}/>
+    <Route path="/teamSelection" element={<TeamSelectionPage/>}/>
 
 </Routes> 
 </Router> 

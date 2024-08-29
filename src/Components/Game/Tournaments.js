@@ -19,6 +19,76 @@ const tournamentData = [
     startDate: '2024-09-05',
     participants: 75,
   },
+  {
+    id: 1,
+    name: 'Tournament 1',
+    amount: 100,
+    startDate: '2024-09-01',
+    participants: 50,
+  },
+  {
+    id: 2,
+    name: 'Tournament 2',
+    amount: 200,
+    startDate: '2024-09-05',
+    participants: 75,
+  },
+  {
+    id: 1,
+    name: 'Tournament 1',
+    amount: 100,
+    startDate: '2024-09-01',
+    participants: 50,
+  },
+  {
+    id: 2,
+    name: 'Tournament 2',
+    amount: 200,
+    startDate: '2024-09-05',
+    participants: 75,
+  },
+  {
+    id: 1,
+    name: 'Tournament 1',
+    amount: 100,
+    startDate: '2024-09-01',
+    participants: 50,
+  },
+  {
+    id: 2,
+    name: 'Tournament 2',
+    amount: 200,
+    startDate: '2024-09-05',
+    participants: 75,
+  },
+  {
+    id: 1,
+    name: 'Tournament 1',
+    amount: 100,
+    startDate: '2024-09-01',
+    participants: 50,
+  },
+  {
+    id: 2,
+    name: 'Tournament 2',
+    amount: 200,
+    startDate: '2024-09-05',
+    participants: 75,
+  },
+  {
+    id: 1,
+    name: 'Tournament 1',
+    amount: 100,
+    startDate: '2024-09-01',
+    participants: 50,
+  },
+  {
+    id: 2,
+    name: 'Tournament 2',
+    amount: 200,
+    startDate: '2024-09-05',
+    participants: 75,
+  },
   // Add more tournament data as needed
 ];
 
@@ -58,6 +128,7 @@ const Tournaments = () => {
             <option value="">All</option>
             <option value="100">Up to $100</option>
             <option value="200">Up to $200</option>
+            
             {/* Add more filters as needed */}
           </select>
         </label>
