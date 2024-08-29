@@ -23,9 +23,22 @@ input[type="text"] {
     font-size: 16px;
 }
 
+input[type="text"]::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+input[type="text"]{
+    color: black;
+}
+
+input[type="text"]:focus {
+    color: black;
+}
+
 .wishlist {
     margin-top: 20px;
-    border-top: 2px solid #ddd;
+    border-top: 2px solid #dddddd00;
     padding-top: 20px;
 }
 
@@ -37,5 +50,32 @@ input[type="text"] {
 .wishlist li {
     margin: 5px 0;
     padding: 5px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #dddddd00;
+}
+
+
+.search-box {
+    display: block;
+    position: relative;
+    left: 40%;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #967c7c;
+    border-radius: 20px;
+    width: 300px;
+    margin: 2rem;
+    height: 60px;
+    box-shadow: 0 4px 10px rgba(20, 20, 20, 0.2);
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    margin: 1.5 rem;
+    background-color: #f8f2f2;
 }
