@@ -4,10 +4,14 @@ import './InfluencerDashboard.css';
 import {CategoryScale} from 'chart.js'; 
 import Chart from 'chart.js/auto';
 import Header from '../LandingPage/Header';
+import { useLocation } from 'react-router-dom';
 
 Chart.register(CategoryScale);
 
-const InfluencerDashboard = ({ influencer }) => {
+const InfluencerDashboard = () => {
+  const location = useLocation();
+  console.log(location);
+  const influencer = location.state.influencer;
   const followerGrowthData = {
     labels: ['January', 'February', 'March', 'April', 'May', 'June'],
     datasets: [
@@ -39,7 +43,7 @@ const InfluencerDashboard = ({ influencer }) => {
       <div className="stats-overview">
         <div className="stat-card">
           <h3>Followers</h3>
-          <p>{influencer.followers.toLocaleString()}</p>
+          <p>{influencer.followers}</p>
         </div>
         <div className="stat-card">
           <h3>Engagement Rate</h3>
@@ -51,11 +55,11 @@ const InfluencerDashboard = ({ influencer }) => {
         </div>
         <div className="stat-card">
           <h3>Average Likes per Post</h3>
-          <p>{influencer.avgLikes.toLocaleString()}</p>
+          <p>{influencer.avgLikes}</p>
         </div>
         <div className="stat-card">
           <h3>Average Comments per Post</h3>
-          <p>{influencer.avgComments.toLocaleString()}</p>
+          <p>{influencer.avgComments}</p>
         </div>
       </div>
 
