@@ -18,6 +18,7 @@ import Tournaments from './Components/Game/Tournaments';
 import TournamentDetails from './Components/Game/TournamentDetails';
 import ChatScreen from './Components/Community/ChatScreen';
 import InfluencerDashboard from './Components/Game/InfluencerDashboard';
+import TeamSelectionPage from './Components/Game/TeamSelectionPage';
 
 const App = () => {
   const influencers = [
@@ -242,7 +243,7 @@ const App = () => {
     <Route path="/tournamentDetails" element={<TournamentDetails/>}/>
     <Route path="/community" element={<ChatScreen/>}/>
     <Route path="/influencerDashboard/:influencerId" element={<InfluencerDashboard/>}/>
-
+    <Route path="/teamSelection" element={<TeamSelectionPage/>}/>
 
 </Routes> 
 </Router> 

@@ -32,7 +32,7 @@ const Features = () => {
       title:"My team",
       paragraph:"Check you Strategy ! ",
       url:"https://t3.ftcdn.net/jpg/05/70/73/26/360_F_570732677_aFvTk3cNRpWl0zldGITPJdHHz7jhSFC3.jpg",
-      link:"/team"
+      link:"/teamSelection"
     },
     {
       title:"Explore Influencers!",
