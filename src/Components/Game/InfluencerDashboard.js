@@ -55,11 +55,11 @@ const InfluencerDashboard = () => {
         </div>
         <div className="stat-card">
           <h3>Average Likes per Post</h3>
-          <p>{influencer.avgLikes}</p>
+          <p>{influencer.averageLikes}</p>
         </div>
         <div className="stat-card">
           <h3>Average Comments per Post</h3>
-          <p>{influencer.avgComments}</p>
+          <p>{influencer.averageComments}</p>
         </div>
       </div>
 
