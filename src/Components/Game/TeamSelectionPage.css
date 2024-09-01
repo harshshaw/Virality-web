@@ -28,6 +28,8 @@
   .player-list {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
+
   }
   
   .player-list-item {
@@ -91,7 +93,7 @@
     color: #333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 10px;
-    width: 130px;
+    width: 200px;
     height: 90px;
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
