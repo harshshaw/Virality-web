@@ -1,0 +1,49 @@
+/* Footer Styles */
+.footer-section {
+  padding: 40px 0;
+}
+
+.footer-section h5 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 14px;
+  color: #ddd;
+}
+
+.footer-section a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-section .social-links a {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #ddd;
+  transition: color 0.3s;
+}
+
+.footer-section .social-links a:hover {
+  color: #fff;
+}
+
+.footer-section .form-control {
+  border: 1px solid #ddd;
+  border-radius: 0;
+}
+
+.footer-section .btn-primary {
+  background-color: #ff3f6c;
+  border: none;
+}
+
+.footer-section hr {
+  border-top: 1px solid #555;
+}

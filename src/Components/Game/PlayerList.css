@@ -8,12 +8,12 @@
     flex-direction: column;
     align-items: center;
 }
-
+/* 
 .player-list {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
-}
+} */
 
 input[type="text"] {
     padding: 10px;
