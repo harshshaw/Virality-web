@@ -1,64 +1,20 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './onlineStore.css';
+import StoreNavbar from './storeNavbar';
+import Carousel from './Carousel';
+import BrandSection from './BrandSection';
 
 function OnlineStore() {
   return (
     <div className="myntra-landing-page">
-      {/* Navbar */}
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="/">Myntra</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item"><a className="nav-link" href="/">Men</a></li>
-              <li className="nav-item"><a className="nav-link" href="/">Women</a></li>
-              <li className="nav-item"><a className="nav-link" href="/">Kids</a></li>
-              <li className="nav-item"><a className="nav-link" href="/">Home & Living</a></li>
-              <li className="nav-item"><a className="nav-link" href="/">Beauty</a></li>
-              <li className="nav-item"><a className="nav-link" href="/">Profile</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      {/* Hero Section */}
-      <div className="hero-section">
-        <img src="https://via.placeholder.com/1500x500" alt="Hero Banner" className="img-fluid" />
-      </div>
-
+      <StoreNavbar />
+      <Carousel />
+      <BrandSection />
       {/* Categories Section */}
       <div className="categories-section container mt-5">
-        <h2>Shop By Category</h2>
-        <div className="row">
-          <div className="col-6 col-md-4 col-lg-3">
-            <div className="category-card">
-              <img src="https://via.placeholder.com/300x300" alt="Men" className="img-fluid" />
-              <h5>Men</h5>
-            </div>
-          </div>
-          <div className="col-6 col-md-4 col-lg-3">
-            <div className="category-card">
-              <img src="https://via.placeholder.com/300x300" alt="Women" className="img-fluid" />
-              <h5>Women</h5>
-            </div>
-          </div>
-          <div className="col-6 col-md-4 col-lg-3">
-            <div className="category-card">
-              <img src="https://via.placeholder.com/300x300" alt="Kids" className="img-fluid" />
-              <h5>Kids</h5>
-            </div>
-          </div>
-          <div className="col-6 col-md-4 col-lg-3">
-            <div className="category-card">
-              <img src="https://via.placeholder.com/300x300" alt="Beauty" className="img-fluid" />
-              <h5>Beauty</h5>
-            </div>
-          </div>
-        </div>
+        <h2>GRAND GLOBAL BRANDS</h2>
+        
       </div>
 
       {/* Promotional Banners */}

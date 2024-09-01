@@ -17,10 +17,10 @@ const Features = () => {
       link:"/tournaments"
     },
     {
-      title:"Merchandise",
-      paragraph:"Shop for Fav Merch!",
+      title:"Viral Store",
+      paragraph:"Shop the Viral Stuff!",
       url:"https://w0.peakpx.com/wallpaper/563/465/HD-wallpaper-ripndip-apparel-cat-merchandise-store-streetwear.jpg",
-      link:"/merchandise"
+      link:"/onlineStore"
     },
     {
       title:"Community",
