@@ -13,8 +13,12 @@ const ZaraLandingPage = () => {
     <div className={styles.container}>
       {/* Navbar */}
       <nav className={styles.navbar}>
+<<<<<<< HEAD
         <BurgerMenu />
         <div className={styles.logo}>MAA TARA </div>
+=======
+        <div className={styles.logo}>ZARA</div>
+>>>>>>> 10b4d1bb6ffd1d4910324bd1a50d808f3500d089
         <div className={styles.menu} onClick={toggleMenu}>
           <span className={styles.menuIcon}>&#9776;</span>
         </div>
@@ -53,7 +57,7 @@ const ZaraLandingPage = () => {
         </div>
         <div className={styles.category}>
           <img
-            src="https://img.freepik.com/free-photo/model-wearing-beautiful-shade-clothing_23-2151428029.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1729296000&semt=ais_hybrid"
+            src="https://www.shutterstock.com/image-photo/beautiful-brunette-woman-natural-makeup-600nw-1781009285.jpg" // Replace with category image URLs
             alt="Man"
           />
           <div className={styles.categoryText}>
@@ -70,6 +74,26 @@ const ZaraLandingPage = () => {
             <h2>Kids</h2>
             <button>Explore</button>
           </div>
+        </div>
+      </section>
+
+      {/* Cards Section with Videos */}
+      <section className={styles.cardSection}>
+        <h2 className={styles.cardSectionTitle}>Latest Trends</h2>
+        <div className={styles.cardContainer}>
+          {[1, 2, 3, 4, 5].map((card, index) => (
+            <div key={index} className={styles.card}>
+              <video
+                src={`https://videos.ctfassets.net/wl6q2in9o7k3/7f3bkmH9ZFwffDef03bXIu/d67b4312d65d320d1bea0a0f765eb91e/LEGGINGS_PLP_-_CLASSES_CARD_4x5.mp4`} // Replace with actual video URL
+                controls
+                className={styles.cardVideo}
+              />
+              <div className={styles.cardContent}>
+                <h3>Card Title {card}</h3>
+                <p>Short description for video {card}.</p>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
