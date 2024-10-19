@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Tournaments.css'; // Include your styles here
+import './CSS/Tournaments.css'; // Include your styles here
 import { useNavigate } from 'react-router-dom';
 import Header from '../LandingPage/Header';
 

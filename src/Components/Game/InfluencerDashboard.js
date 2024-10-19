@@ -1,6 +1,6 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
-import './InfluencerDashboard.css';
+import './CSS/InfluencerDashboard.css';
 import {CategoryScale} from 'chart.js'; 
 import Chart from 'chart.js/auto';
 import Header from '../LandingPage/Header';

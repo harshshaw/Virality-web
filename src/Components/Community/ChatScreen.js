@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ChatScreen.css';
+import './Css/ChatScreen.css';
 import Header from '../LandingPage/Header';
 
 const ChatScreen = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaTrashAlt } from 'react-icons/fa';
-import './merchWishList.css'
+import './Css/merchWishList.css'
 
 const Wishlist = ({ wishlist, removeFromWishlist }) => {
   return (

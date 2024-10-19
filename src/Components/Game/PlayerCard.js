@@ -1,5 +1,5 @@
 import React from 'react';
-import  './PlayerList.css';
+import  './CSS/PlayerList.css';
 import background from "./v logo.jpg";
 import { useNavigate } from 'react-router-dom';
 

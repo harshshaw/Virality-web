@@ -1,9 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './onlineStore.css';
 import StoreNavbar from './storeNavbar';
 import Carousel from './Carousel';
 import BrandSection from './BrandSection';
+import './Css/onlineStore.css';
 
 function OnlineStore() {
   return (

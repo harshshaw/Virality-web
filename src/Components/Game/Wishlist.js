@@ -1,5 +1,5 @@
 import React from 'react';
-import './PlayerList.css'
+import './CSS/PlayerList.css'
 const Wishlist = ({ wishlist }) => {
     return (
         <div className="wishlist">

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PlayerCard from './PlayerCard';
 import Wishlist from './Wishlist';
-import './PlayerList.css'
+import './CSS/PlayerList.css'
 import Navbar from '../LandingPage/Navbar';
 import Header from '../LandingPage/Header';
 const PlayerList = ({ influencers }) => {

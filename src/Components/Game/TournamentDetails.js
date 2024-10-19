@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './TournamentDetails.css';
+import './CSS/TournamentDetails.css';
 import Header from '../LandingPage/Header';
 
 const TournamentDetails = () => {
