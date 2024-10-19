@@ -1,0 +1,62 @@
+/* src/components/Footer.css */
+.apple-footer {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: flex-start; /* Align the columns at the top */
+    margin-bottom: 30px;
+    gap: 40px; /* Add some spacing between the columns */
+  }
+  
+  .footer-column {
+    text-align: center; /* Center-align the content within each column */
+    width: 20%;
+  }
+  
+  .footer-column h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .footer-column ul li:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 20px;
+    color: #666;
+  }
+  
+  .footer-bottom p {
+    margin: 10px 0;
+  }
+  
+  .footer-bottom p a {
+    color: #0071e3;
+    text-decoration: none;
+  }
+  
+  .footer-bottom p a:hover {
+    text-decoration: underline;
+  }
+  

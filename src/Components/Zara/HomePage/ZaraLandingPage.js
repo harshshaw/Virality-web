@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './ZaraLandingPage.module.css';
 import BurgerMenu from '../../BurgerMenu/BurgerMenu';
+import Footer from '../../Footer/Footer';
 
 const ZaraLandingPage = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,7 +16,6 @@ const ZaraLandingPage = () => {
       <nav className={styles.navbar}>
         <BurgerMenu />
         <div className={styles.logo}>MAA TARA </div>
-        <div className={styles.logo}>ZARA</div>
         <div className={styles.menu} onClick={toggleMenu}>
           <span className={styles.menuIcon}>&#9776;</span>
         </div>
@@ -95,11 +95,7 @@ const ZaraLandingPage = () => {
       </section>
 
       {/* Footer */}
-      <footer className={styles.footer}>
-        <div className={styles.footerContent}>
-          <p>&copy; 2024 Zara. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
