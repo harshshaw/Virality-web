@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './ZaraLandingPage.module.css';
+import BurgerMenu from '../../BurgerMenu/BurgerMenu';
 
 const ZaraLandingPage = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,6 +13,7 @@ const ZaraLandingPage = () => {
     <div className={styles.container}>
       {/* Navbar */}
       <nav className={styles.navbar}>
+        <BurgerMenu />
         <div className={styles.logo}>MAA TARA </div>
         <div className={styles.menu} onClick={toggleMenu}>
           <span className={styles.menuIcon}>&#9776;</span>
