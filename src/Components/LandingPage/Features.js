@@ -39,6 +39,12 @@ const Features = () => {
       paragraph:"Search and Learn about Influencers!",
       url:"https://media.istockphoto.com/id/1213200051/photo/friendly-young-man-vlogging.webp?b=1&s=612x612&w=0&k=20&c=nYPoaQVdA0FpwWnTtvyv5F-AZuTyhfNeB_DwjI8hWMA=",
       link:"/playerList"
+    },
+    {
+      title:"Live Events",
+      paragraph:"Join an Event or mark it on your calendar!",
+      url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZpHppoOG-8zVsBf1OGeQ_RhlQcqnh-KnL3w&s",
+      link:"/eventPage"
     }
   ]
   let features=data.map((res)=>{

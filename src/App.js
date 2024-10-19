@@ -22,6 +22,8 @@ import TeamSelectionPage from './Components/Game/TeamSelectionPage';
 import OnlineStore from './Components/Merchandise/onlineStore';
 import ProductCatalog from './Components/Merchandise/ProductCatalog';
 import ProductPage from './Components/Merchandise/ProductPage';
+import EventPage from './Components/PlatformEvent/EventPage';
+import LiveEvent from './Components/PlatformEvent/LiveEvent';
 
 const App = () => {
   const influencers = [
@@ -241,6 +243,8 @@ const App = () => {
 <Routes> 
     <Route path="/" element={<HomePage />} /> 
     <Route path="/playerList" element={<PlayerList influencers={influencers}/>} /> 
+    <Route path="/eventPage" element={<EventPage/>} /> 
+    <Route path="/liveEvent" element={<LiveEvent/>} />
     <Route path="/merchandise" element={<Merchandise/>} /> 
     <Route path="/tournaments" element={<Tournaments/>}/>
     <Route path="/tournamentDetails" element={<TournamentDetails/>}/>
