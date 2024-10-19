@@ -13,12 +13,9 @@ const ZaraLandingPage = () => {
     <div className={styles.container}>
       {/* Navbar */}
       <nav className={styles.navbar}>
-<<<<<<< HEAD
         <BurgerMenu />
         <div className={styles.logo}>MAA TARA </div>
-=======
         <div className={styles.logo}>ZARA</div>
->>>>>>> 10b4d1bb6ffd1d4910324bd1a50d808f3500d089
         <div className={styles.menu} onClick={toggleMenu}>
           <span className={styles.menuIcon}>&#9776;</span>
         </div>
