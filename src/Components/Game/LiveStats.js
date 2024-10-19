@@ -1,5 +1,5 @@
 import React from 'react';
-import './LiveStats.css';
+import './CSS/LiveStats.css';
 
 const LiveStats = () => {
   // Example data for live player stats

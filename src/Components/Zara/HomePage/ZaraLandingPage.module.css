@@ -1,0 +1,170 @@
+.container {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks li {
+  cursor: pointer;
+}
+
+.menuIcon {
+  font-size: 1.5rem;
+  display: none;
+}
+
+/* Hero Section Styling */
+.heroSection {
+  position: relative;
+  text-align: center;
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+}
+
+.heroText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroText h1 {
+  margin-bottom: 20px;
+}
+
+.shopButton {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.shopButton:hover {
+  background-color: #444;
+}
+
+/* Category Section Styling */
+.categorySection {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.category {
+  position: relative;
+  text-align: center;
+  flex: 1;
+  margin: 0 15px;
+}
+
+.category img {
+  width: 100%;
+  height: auto;
+}
+
+.categoryText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.categoryText h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.categoryText button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.categoryText button:hover {
+  background-color: #444;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footerContent {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .navLinks.open {
+    display: flex;
+  }
+
+  .menuIcon {
+    display: block;
+  }
+
+  .categorySection {
+    flex-direction: column;
+  }
+
+  .category {
+    margin-bottom: 20px;
+  }
+}

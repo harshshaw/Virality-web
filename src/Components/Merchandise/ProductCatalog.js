@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ProductCatalog.css';
+import './Css/ProductCatalog.css';
 
 const ProductCatalog = () => {
   const [selectedFilters, setSelectedFilters] = useState({
@@ -17,12 +17,16 @@ const ProductCatalog = () => {
   };
 
   const products = [
-    { id: 1, name: 'Product 1', price: '₹1,299', image: 'https://via.placeholder.com/300', brand: 'Brand A', discount: '10%' },
-    { id: 2, name: 'Product 2', price: '₹899', image: 'https://via.placeholder.com/300', brand: 'Brand B', discount: '20%' },
-    { id: 3, name: 'Product 3', price: '₹1,499', image: 'https://via.placeholder.com/300', brand: 'Brand A', discount: '15%' },
+    { id: 1, name: 'Product 1', price: '₹1,299', image: 'https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/17787796/2022/4/19/b38a6c93-d709-4aa6-a4f1-e0010ecf78be1650366228666SASSAFRASRedBeigeFloralWaistCut-OutMaxiDress1.jpg', brand: 'Brand A', discount: '10%' },
+    { id: 2, name: 'Product 2', price: '₹899', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPDqjQ41PHwNC9hGZqXpGx1u1BXghbgX0RRQ&s', brand: 'Brand B', discount: '20%' },
+    { id: 3, name: 'Product 3', price: '₹1,499', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJEIkFb_ixBWQurXG4-JRoTWJVmrxw973epg&s', brand: 'Brand A', discount: '15%' },
     { id: 4, name: 'Product 4', price: '₹1,999', image: 'https://via.placeholder.com/300', brand: 'Brand C', discount: '25%' },
     { id: 5, name: 'Product 5', price: '₹2,299', image: 'https://via.placeholder.com/300', brand: 'Brand D', discount: '30%' },
-    { id: 6, name: 'Product 6', price: '₹3,499', image: 'https://via.placeholder.com/300', brand: 'Brand E', discount: '35%' },
+    { id: 6, name: 'Product 7', price: '₹3,499', image: 'https://via.placeholder.com/300', brand: 'Brand E', discount: '35%' },
+    { id: 3, name: 'Product 8', price: '₹1,499', image: 'https://via.placeholder.com/300', brand: 'Brand F', discount: '15%' },
+    { id: 4, name: 'Product 9', price: '₹1,999', image: 'https://via.placeholder.com/300', brand: 'Brand G', discount: '25%' },
+    { id: 5, name: 'Product 10', price: '₹2,299', image: 'https://via.placeholder.com/300', brand: 'Brand H', discount: '30%' },
+    { id: 6, name: 'Product 11', price: '₹3,499', image: 'https://via.placeholder.com/300', brand: 'Brand I', discount: '35%' },
   ];
 
   const filteredProducts = products.filter((product) => {

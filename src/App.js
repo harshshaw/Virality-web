@@ -22,6 +22,7 @@ import TeamSelectionPage from './Components/Game/TeamSelectionPage';
 import OnlineStore from './Components/Merchandise/onlineStore';
 import ProductCatalog from './Components/Merchandise/ProductCatalog';
 import ProductPage from './Components/Merchandise/ProductPage';
+import ZaraLandingPage from './Components/Zara/HomePage/ZaraLandingPage';
 
 const App = () => {
   const influencers = [
@@ -239,7 +240,7 @@ const App = () => {
     <div className="App">
 <Router> 
 <Routes> 
-    <Route path="/" element={<HomePage />} /> 
+    <Route path="/" element={<ZaraLandingPage />} /> 
     <Route path="/playerList" element={<PlayerList influencers={influencers}/>} /> 
     <Route path="/merchandise" element={<Merchandise/>} /> 
     <Route path="/tournaments" element={<Tournaments/>}/>

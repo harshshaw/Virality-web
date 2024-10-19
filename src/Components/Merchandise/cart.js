@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaTrashAlt } from 'react-icons/fa';
-import './Cart.css';
+import './Css/Cart.css';
 
 const Cart = ({ cart, removeFromCart }) => {
   // Calculate total price

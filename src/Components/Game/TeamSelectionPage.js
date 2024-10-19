@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './TeamSelectionPage.css';
+import './CSS/TeamSelectionPage.css';
 import Header from '../LandingPage/Header';
 
 const players = [

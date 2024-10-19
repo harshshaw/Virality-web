@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaHeart, FaRegHeart } from 'react-icons/fa';
 import Wishlist from './merchWishlist';
 import Cart from './cart';  // Import the Cart component
-import './merchandise.css'
+import './Css/merchandise.css'
 import Header from '../LandingPage/Header';
 
 // Sample product data
