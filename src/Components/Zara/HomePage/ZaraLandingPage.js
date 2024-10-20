@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './ZaraLandingPage.module.css';
 import Footer from '../../Footer/Footer';
 import Header from '../../Header/Header';
+import FloatingButtons from '../../FloatingFeatures/FloatingButtons';
 
 const ZaraLandingPage = () => {
 
@@ -75,7 +76,7 @@ const ZaraLandingPage = () => {
           ))}
         </div>
       </section>
-
+      <FloatingButtons />
       {/* Footer */}
       <Footer />
     </div>
