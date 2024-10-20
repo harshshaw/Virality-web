@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from '../Header/Header';
 
 const EventPage = () => {
     const [isLive, setIsLive] = useState(false);  // Track if the event is live
@@ -26,6 +27,7 @@ const EventPage = () => {
 
     return (
         <div style={styles.container}>
+            <Header style={{backgroundColor: "black"}} />
             <h2>Live Event Page</h2>
             
             <div style={styles.buttonContainer}>

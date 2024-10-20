@@ -25,6 +25,7 @@ import ProductPage from './Components/Merchandise/ProductPage';
 import EventPage from './Components/PlatformEvent/EventPage';
 import LiveEvent from './Components/PlatformEvent/LiveEvent';
 import ZaraLandingPage from './Components/Zara/HomePage/ZaraLandingPage';
+import PlatformEvent from './Components/PlatformEvent/PlatformEvent';
 
 const App = () => {
   const influencers = [
@@ -245,6 +246,7 @@ const App = () => {
     <Route path="/" element={<ZaraLandingPage />} /> 
     <Route path="/playerList" element={<PlayerList influencers={influencers}/>} /> 
     <Route path="/eventPage" element={<EventPage/>} /> 
+    <Route path="platformEvent" element={<PlatformEvent/>} />
     <Route path="/liveEvent" element={<LiveEvent/>} />
     <Route path="/merchandise" element={<Merchandise/>} /> 
     <Route path="/tournaments" element={<Tournaments/>}/>

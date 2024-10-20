@@ -1,0 +1,35 @@
+/* src/components/LeftPanel.css */
+.left-panel {
+    width: 20%; /* Allocate 20% width for the left panel */
+    background-color: #282828;
+    padding: 20px;
+    height: 100%; /* Full height of the app-content area */
+    overflow-y: auto; /* Scrollable if content overflows */
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-list li {
+    padding: 10px;
+    cursor: pointer;
+    color: #b3b3b3;
+    border-bottom: 1px solid #333;
+  }
+  
+  .event-list li:hover {
+    background-color: #1db954;
+    color: white;
+  }
+  

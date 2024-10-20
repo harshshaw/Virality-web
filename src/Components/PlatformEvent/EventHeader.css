@@ -1,0 +1,64 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282828; /* Dark Spotify-like theme */
+    padding: 10px 20px;
+    color: white;
+    height: 60px; /* Fixed height for the header */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures the header stays on top while scrolling */
+  }
+  
+  .header-left .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1db954; /* Spotify-like green color */
+  }
+  
+  .header-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar {
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px 15px;
+    width: 50%;
+  }
+  
+  .search-bar input {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .search-icon {
+    color: #b3b3b3;
+    margin-right: 10px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-icon {
+    font-size: 32px;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    font-size: 16px;
+    color: #b3b3b3;
+  }
+  

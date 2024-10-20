@@ -1,0 +1,15 @@
+/* src/App.css */
+.app {
+    display: flex;
+    flex-direction: column; /* Header stays on top */
+    height: 100vh;
+    background-color: #181818; /* Dark background for the entire app */
+    color: #fff;
+  }
+  
+  .app-content {
+    display: flex;
+    flex: 1; /* Takes up the remaining space below the header */
+    height: calc(100vh - 60px); /* Make sure the content area adjusts for header height */
+  }
+  

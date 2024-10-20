@@ -1,0 +1,22 @@
+/* src/components/EventDetails.css */
+.event-details {
+    width: 60%; /* Allocate 60% width for the middle content */
+    padding: 20px;
+    background-color: #121212;
+    text-align: center;
+    height: 100%; /* Full height of the app-content area */
+    overflow-y: auto; /* Scrollable if content overflows */
+  }
+  
+  .join-button {
+    background-color: #1db954;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .join-button:hover {
+    background-color: #1ed760;
+  }
+  

@@ -21,7 +21,7 @@ const LiveEvent = () => {
     const rtcProps = {
         appId: "",
         channel: "virality_testing",
-        token: "007eJxTYHjKsGsKh++ExJ9s7KlvXnaaFHKeeG9757bPA0PnI5zsgpYKDEbm5oZGRqmmqSmGRibmlhZJBoYWFsZGxqYGRoZGpinJJyfxpTcEMjKc0xNhYmSAQBBfgKEssygxJ7OkMr4ktbgkMy+dgQEALgYhnQ=="
+        token: "007eJxTYLDjCJJdeC5xlVTvjTcvE1eJLYjp0pJy7n3oeOQE/8NKeT8FBiNzc0Mjo1TT1BRDIxNzS4skA0MLC2MjY1MDI0Mj05RknSXC6Q2BjAxT+eYwMEIhiC/AUJZZlJiTWVIZX5JaXJKZl87AAAAxliGt"
     };
 
     const callbacks = {
