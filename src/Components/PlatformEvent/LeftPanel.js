@@ -7,8 +7,8 @@ const LeftPanel = ({ events, onSearch, onSelectEvent }) => {
     <div className="left-panel">
       <input 
         type="text" 
-        className="search-bar" 
-        placeholder="Search events..." 
+        className="left-panel-search" 
+        placeholder="See whats in store..."
         onChange={(e) => onSearch(e.target.value)}
       />
       <ul className="event-list">

@@ -8,8 +8,10 @@ import EventHeader from './EventHeader';
 
 function PlatformEvent() {
   const [events, setEvents] = useState([
-    { id: 1, name: "Event 1", description: "Description for Event 1", videoUrl: "https://www.example.com/video1" },
-    { id: 2, name: "Event 2", description: "Description for Event 2", videoUrl: "https://www.example.com/video2" },
+    { id: 1, name: "Fun with Samay", description: "Description for Event 1", videoUrl: "https://www.example.com/video1" },
+    { id: 2, name: "Tune in with Diljit", description: "Description for Event 2", videoUrl: "https://www.example.com/video2" },
+    { id: 3, name: "Brand on Top", description: "Description for Event 3", videoUrl: "https://www.example.com/video1" },
+    { id: 4, name: "Rock it", description: "Description for Event 4", videoUrl: "https://www.example.com/video2" },
     // Add more events here...
   ]);
 

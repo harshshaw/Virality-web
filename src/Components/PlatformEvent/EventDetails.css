@@ -1,4 +1,40 @@
 /* src/components/EventDetails.css */
+.background-container {
+  height: 100vh; /* Full viewport height */
+  background-image: url('../../assets/images/event_background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+/* Stack h1 and p vertically */
+  
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Slight text shadow for better readability */
+  animation: fadeInBackground 3s ease-in-out;
+  opacity: 0; /* Start invisible */
+  animation-fill-mode: forwards; /* Ensure it stays visible after animation */
+}
+@keyframes fadeInBackground {
+  0% {
+    opacity: 0; /* Fully transparent at the start */
+  }
+  100% {
+    opacity: 1; /* Fully visible at the end */
+    background-image: (rgba(47, 41, 41, 0), rgba(124, 109, 109, 0.989)), url('../../assets/images/event_background.png');
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5rem;
+}
 .event-details {
     width: 60%; /* Allocate 60% width for the middle content */
     padding: 20px;
@@ -6,6 +42,10 @@
     text-align: center;
     height: 100%; /* Full height of the app-content area */
     overflow-y: auto; /* Scrollable if content overflows */
+    background-image: linear-gradient(rgba(47, 41, 41, 0), rgba(124, 109, 109, 0.989)), url('../../assets/images/event_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .join-button {

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #282828; /* Dark Spotify-like theme */
+    background-color: #171616; /* Dark Spotify-like theme */
     padding: 10px 20px;
     color: white;
     height: 60px; /* Fixed height for the header */
@@ -15,7 +15,7 @@
   .header-left .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #1db954; /* Spotify-like green color */
+    color: #e7f7ed; /* Spotify-like green color */
   }
   
   .header-center {
