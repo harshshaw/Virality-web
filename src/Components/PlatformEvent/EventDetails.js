@@ -14,9 +14,14 @@ const EventDetails = ({ selectedEvent }) => {
 
   return (
     <div className="event-details">
-      <h2>{selectedEvent.name}</h2>
+      <h1>{selectedEvent.name}</h1>
       <p>{selectedEvent.description}</p>
-      <button className="join-button">Join Event</button>
+      <div className="event-buttons">
+        {selectedEvent.eventStarted ? <button className="join-button">Join Event</button> : <></>}
+        {!selectedEvent.eventStarted ? <button className="calendar-button">Mark My Calendar</button> : <></>}
+        {!selectedEvent.eventStarted ? <button className="remind-button">Remind Me</button> : <></>}
+      </div>
+
     </div>
   );
 };

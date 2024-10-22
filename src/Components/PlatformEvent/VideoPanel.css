@@ -1,11 +1,32 @@
 /* src/components/VideoPanel.css */
 .video-panel {
     width: 20%; /* Allocate 20% width for the right panel (video player) */
-    background-color: #282828;
+    background-color: #00000045;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    flex-direction: column;
+    padding: 3%;
     height: 100%; /* Full height of the app-content area */
   }
-  
+
+.image-stack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+    gap: 5%;
+}
+
+.image-stack img {
+  width: 100%;
+  max-width: 300px;
+  height: 23%;
+  border-radius: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image-stack img:hover {
+  transform: rotate(360deg); /* Rotates the image 360 degrees */
+}

@@ -1,14 +1,14 @@
 /* src/components/EventDetails.css */
 .background-container {
-  height: 100vh; /* Full viewport height */
-  background-image: url('../../assets/images/event_background.png');
+  height: 100%; /* Full viewport height */
+  background-image: linear-gradient(rgba(64, 43, 43, 0), rgba(49, 31, 31, 0.989)), url('../../assets/images/event_background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  width: 60%;
 /* Stack h1 and p vertically */
   
   color: white;
@@ -22,8 +22,7 @@
     opacity: 0; /* Fully transparent at the start */
   }
   100% {
-    opacity: 1; /* Fully visible at the end */
-    background-image: (rgba(47, 41, 41, 0), rgba(124, 109, 109, 0.989)), url('../../assets/images/event_background.png');
+    opacity: 1;
   }
 }
 
@@ -42,21 +41,58 @@ p {
     text-align: center;
     height: 100%; /* Full height of the app-content area */
     overflow-y: auto; /* Scrollable if content overflows */
-    background-image: linear-gradient(rgba(47, 41, 41, 0), rgba(124, 109, 109, 0.989)), url('../../assets/images/event_background.png');
+    background-image: linear-gradient(rgba(64, 43, 43, 0), rgba(49, 31, 31, 0.989)), url('../../assets/images/event_background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
   .join-button {
-    background-color: #1db954;
+    background-color: #9f09cd;
     border: none;
     padding: 10px 20px;
     color: white;
     cursor: pointer;
+    border-radius: 20%;
   }
   
   .join-button:hover {
-    background-color: #1ed760;
+    background-color: #9f09cd87;
+  }
+
+  .remind-button {
+    background-color: #9f09cd;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20%;
+  }
+  
+  .remind-button:hover {
+    background-color: #9f09cd87;
+  }
+
+  .calendar-button {
+    background-color: #9f09cd;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20%;
+  }
+  
+  .calendar-button:hover {
+    background-color: #9f09cd87;
+  }
+
+  .event-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
   }
   
