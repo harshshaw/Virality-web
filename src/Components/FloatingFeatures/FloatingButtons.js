@@ -4,7 +4,7 @@ import { FaBroadcastTower, FaRobot  } from 'react-icons/fa';
 import './FloatingButtons.css';
 import { useNavigate } from 'react-router-dom';
 
-const FloatingButtons = () => {
+const FloatingButtons = ({onOpenChatbot}) => {
     const navigate = useNavigate();
     const [showSmoke, setShowSmoke] = useState(false);
 
@@ -15,6 +15,7 @@ const FloatingButtons = () => {
     setTimeout(() => {
       setShowSmoke(false);
     }, 1000); // Duration should match the animation duration
+    onOpenChatbot();
   };
 
     function openPlatformEvent() {

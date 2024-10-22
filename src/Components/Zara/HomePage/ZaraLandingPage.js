@@ -3,8 +3,15 @@ import styles from './ZaraLandingPage.module.css';
 import Footer from '../../Footer/Footer';
 import Header from '../../Header/Header';
 import FloatingButtons from '../../FloatingFeatures/FloatingButtons';
+import ChatbotModal from '../../ChatModal/ChatbotModal';
 
 const ZaraLandingPage = () => {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const toggleModal = () => {
+        setIsModalOpen(!isModalOpen);
+    };
 
   return (
     <div className={styles.container}>
@@ -76,7 +83,8 @@ const ZaraLandingPage = () => {
           ))}
         </div>
       </section>
-      <FloatingButtons />
+      <ChatbotModal isOpen={isModalOpen} onClose={toggleModal} />
+      <FloatingButtons onOpenChatbot={toggleModal} />
       {/* Footer */}
       <Footer />
     </div>
